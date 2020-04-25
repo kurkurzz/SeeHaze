@@ -29,6 +29,14 @@ The objective of this application is to visualize air visibility in relation to 
 
 ## Technology
 
+This application was developed using Google's UI toolkit, Flutter, that compiles applications for mobile, web and desktop. The developers also implemented several APIs into the application such as:
+
+1) Place API - Retrieves place suggestions for the user when typing in the search bar
+2) Geocoding API - Converts addresses into geographical coordinates
+3) Worldwide Air Quality Index API (https://waqi.info)  - Retrieves the AQI from locations all over the globe 
+
+This application also simulates a 360 degree view of the street by combining four 2D images from the user's perspective to simulate the onsite experience of being at the location.
+
 ## Instruction
 
-Type in your location in the search bar and press Enter. Shortly after, a full three-dimensional view of the user's street showing the air visibility in their area will appear on their screen.
+Type in your location in the search bar and press Enter. Shortly after, a view of the user's street showing the air visibility in their area will appear on their screen.
